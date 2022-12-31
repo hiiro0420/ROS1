@@ -15,12 +15,12 @@ c++ のtopic、service
 roscore
 ```
 
-4. publisher(service)を実行
+4. publisher(server)を実行
 ```bash
 rosrun c_topic talker(server)
 ```
 
-5. publisher(service)を実行
+5. listener(client)を実行
 ```bash
 rosrun c_topic listener(client)
 ```
